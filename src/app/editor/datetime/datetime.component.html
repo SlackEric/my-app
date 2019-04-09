@@ -1,0 +1,6 @@
+<input type="date" [(ngModel)]="date" (ngModelChange)="dateTimeDisplayChange.emit(dateTimeDisplay)"/>
+<input type="number" [(ngModel)]="hour" (ngModelChange)="dateTimeDisplayChange.emit(dateTimeDisplay)">
+<input type="number" [(ngModel)]="minute" (ngModelChange)="dateTimeDisplayChange.emit(dateTimeDisplay)">
+<input type="number" [(ngModel)]="second" (ngModelChange)="dateTimeDisplayChange.emit(dateTimeDisplay)">
+
+<!-- <input type="string" [(ngModel)]="dateTime" /> -->

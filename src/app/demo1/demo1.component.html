@@ -1,0 +1,12 @@
+<p>
+  demo1 works!
+</p>
+<app-datetime [dateTimeDisplay]="myDateTime" (dateTimeDisplayChange)="myDateTime=$event"></app-datetime>
+
+<div>
+  From component property:{{datetime.dateTimeDisplay}}
+</div>
+
+<div>
+  From two-way binding:{{myDateTime}}
+</div>
